@@ -12,6 +12,6 @@
 //   return result;
 // };
 
-const sum = numbers => numbers.length ? numbers.reduce((acc, curr) => acc + curr) : 0;
+const sum = numbers => numbers.reduce((acc, curr) => acc + curr, 0);
 
 console.log(sum([1, 5.2, 4, 0, -1]));
